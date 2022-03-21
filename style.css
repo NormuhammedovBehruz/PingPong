@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    user-select: none;
+}
+
+body .counter {
+    font-weight: 500;
+    font-size: 70px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#game_level {
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.player-1_btn {
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.player-1_btn:active {
+    color: red;
+}
+
+.player-2_btn {
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.player-2_btn:active {
+    color: red;
+}
+
+.reset {
+    font-size: 25px;
+    width: 233px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.reset:active {
+    color: red;
+}

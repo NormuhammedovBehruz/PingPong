@@ -8,6 +8,10 @@ body {
     justify-content: center;
     height: 100vh;
     user-select: none;
+    background-image: url("./футбо-ьное-по-е-арены-ста-иона-ночи-57870298.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 body .counter {
@@ -15,6 +19,10 @@ body .counter {
     font-size: 70px;
     margin: 0;
     margin-bottom: 5px;
+}
+
+.counter {
+    color: #fff;
 }
 
 #game_level {
